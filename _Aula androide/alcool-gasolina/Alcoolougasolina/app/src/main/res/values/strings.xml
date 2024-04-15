@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Alcool ou gasolina</string>
+    <string name="pre_o_lcool_ex_1_90">Preço álcool ex: 1.90</string>
+    <string name="resultado">Resultado</string>
+</resources>
