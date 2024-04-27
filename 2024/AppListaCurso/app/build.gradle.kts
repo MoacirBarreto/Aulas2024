@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "devAndroid.Moacir.applistacurso"
-        minSdk = 26
+        minSdk = 33
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
