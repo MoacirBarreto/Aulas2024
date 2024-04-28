@@ -1,4 +1,4 @@
-package devandroid.moacir.applistacurso2024;
+ package devandroid.moacir.applistacurso2024;
 
 import android.os.Bundle;
 
