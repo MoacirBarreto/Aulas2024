@@ -1,4 +1,4 @@
- package devandroid.moacir.applistacurso2024;
+ package devandroid.moacir.applistacurso2024.view;
 
 import android.os.Bundle;
 
@@ -8,7 +8,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
+import devandroid.moacir.applistacurso2024.R;
+
+ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
