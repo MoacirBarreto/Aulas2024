@@ -14,6 +14,7 @@ import devandroid.moacir.applistacurso2024.model.Pessoa;
  public class MainActivity extends AppCompatActivity {
 
      Pessoa pessoa;
+     Pessoa outraPessoa;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,22 @@ import devandroid.moacir.applistacurso2024.model.Pessoa;
             return insets;
 
         });
-        pessoa = new Pessoa();
+        pessoa = new Pessoa();  //cria objeto
+        //atribuir conteudo para objeto
+        pessoa.setPrimeiroNome("Moacir");
+        pessoa.setSobreNome("Barreto");
+        pessoa.setCursoDesejado("Android");
+        pessoa.setTelefoneContato("84-9-94512016");
+
+        outraPessoa = new Pessoa();
+        outraPessoa.setPrimeiroNome("Luiza");
+        outraPessoa.setSobreNome("Araujo");
+        outraPessoa.setCursoDesejado("Java");
+        outraPessoa.setTelefoneContato("85-9-999999999");
+
+        int parada = 0;
+
+
+
     }
 }
