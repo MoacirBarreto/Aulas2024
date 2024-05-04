@@ -26,7 +26,14 @@ import devandroid.moacir.applistacurso2024.model.Pessoa;
             return insets;
 
         });
-        pessoa = new Pessoa();   // instanciar objeto
+        // instanciar objeto
+        pessoa = new Pessoa();
+        // Atribuir conteudo
+        // pessoa.setPrimeiroNome("Moacir");
+        pessoa.setSobreNome("Barreto");
+        pessoa.setCursoDesejado("Android");
+        pessoa.setContato("84-9-999999999");
+
 
 
 
