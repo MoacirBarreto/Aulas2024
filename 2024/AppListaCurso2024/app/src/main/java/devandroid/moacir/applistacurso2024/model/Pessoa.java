@@ -43,8 +43,13 @@ public class Pessoa {
         this.contato = contato;
     }
 
-    public Pessoa(){
-
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "primeiroNome='" + primeiroNome + '\'' +
+                ", sobreNome='" + sobreNome + '\'' +
+                ", cursoDesejado='" + cursoDesejado + '\'' +
+                ", contato='" + contato + '\'' +
+                '}';
     }
-
 }

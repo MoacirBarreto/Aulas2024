@@ -1,6 +1,7 @@
  package devandroid.moacir.applistacurso2024.view;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -61,9 +62,8 @@ import devandroid.moacir.applistacurso2024.model.Pessoa;
         dadosOutraPessoa += outraPessoa.getContato();
 
 
-
-        int parada = 0;
-
+        Log.i("POOAndroid", pessoa.toString());
+        Log.i("POOAndroid",outraPessoa.toString());
 
     }
 }
