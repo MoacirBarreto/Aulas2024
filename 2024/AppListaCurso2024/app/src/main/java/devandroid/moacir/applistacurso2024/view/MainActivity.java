@@ -14,6 +14,7 @@ import devandroid.moacir.applistacurso2024.model.Pessoa;
  public class MainActivity extends AppCompatActivity {
 
      Pessoa pessoa;  //declarei objeto
+     Pessoa outraPessoa;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,17 +29,20 @@ import devandroid.moacir.applistacurso2024.model.Pessoa;
         });
         // instanciar objeto
         pessoa = new Pessoa();
-        // Atribuir conteudo
-        // pessoa.setPrimeiroNome("Moacir");
+        // Atribuir conteudo para obj conforme template (model)
+        pessoa.setPrimeiroNome("Moacir");
         pessoa.setSobreNome("Barreto");
         pessoa.setCursoDesejado("Android");
         pessoa.setContato("84-9-999999999");
 
+        outraPessoa = new Pessoa();
+        outraPessoa.setPrimeiroNome("Luiz");
+        outraPessoa.setSobreNome("Alves");
+        outraPessoa.setCursoDesejado("java");
+        outraPessoa.setContato("85-99999999");
 
 
-
-
-
+        int parada = 0;
 
     }
 }
