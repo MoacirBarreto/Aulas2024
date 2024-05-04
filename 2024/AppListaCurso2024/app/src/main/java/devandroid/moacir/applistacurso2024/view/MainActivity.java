@@ -2,8 +2,10 @@
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -46,10 +48,10 @@ import devandroid.moacir.applistacurso2024.model.Pessoa;
         // instanciar objeto
         pessoa = new Pessoa();
         // Atribuir conteudo para obj conforme template (model)
-        pessoa.setPrimeiroNome("Moacir");
-        pessoa.setSobreNome("Barreto");
-        pessoa.setCursoDesejado("Android");
-        pessoa.setContato("84-9-999999999");
+//        pessoa.setPrimeiroNome("Moacir");
+//        pessoa.setSobreNome("Barreto");
+//        pessoa.setCursoDesejado("Android");
+//        pessoa.setContato("84-9-999999999");
 
         outraPessoa = new Pessoa();
         outraPessoa.setPrimeiroNome("Luiz");
@@ -83,6 +85,45 @@ import devandroid.moacir.applistacurso2024.model.Pessoa;
         btnLimpar = findViewById(R.id.btnLimpar);
         btnSalvar = findViewById(R.id.btnSalvar);
         btnFinalizar = findViewById(R.id.btnFinalizar);
+
+
+        editPrimeiroNome.setText(outraPessoa.getPrimeiroNome());
+        editSobreNome.setText(outraPessoa.getSobreNome());
+        editNomeCurso.setText(outraPessoa.getCursoDesejado());
+        editTelefoneContato.setText(outraPessoa.getContato());
+
+        btnLimpar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                editPrimeiroNome.setText("");
+                editSobreNome.setText("");
+                editNomeCurso.setText("");
+                editTelefoneContato.setText("");
+
+            }
+        });
+
+        btnFinalizar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, "Bye", Toast.LENGTH_LONG).show();
+                finish();
+            }
+        });
+
+
+        btnSalvar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                pessoa.setPrimeiroNome(editPrimeiroNome.getText().toString());
+                pessoa.setSobreNome(editSobreNome.getText().toString());
+                pessoa.setCursoDesejado(editNomeCurso.getText().toString());
+                pessoa.setContato(editTelefoneContato.getText().toString());
+
+                Toast.makeText(MainActivity.this, "Salvo"+pessoa.toString(), Toast.LENGTH_LONG).show();
+                finish();
+            }
+        });
 
 
         Log.i("POOAndroid", pessoa.toString());
