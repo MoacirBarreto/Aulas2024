@@ -2,6 +2,8 @@
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Button;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,10 +16,22 @@ import devandroid.moacir.applistacurso2024.model.Pessoa;
 
  public class MainActivity extends AppCompatActivity {
 
-     Pessoa pessoa;  //declarei objeto
+     //declarar objeto - instanciar
+     Pessoa pessoa;
      Pessoa outraPessoa;
     String dadosPessoa;
     String dadosOutraPessoa;
+
+    EditText editPrimeiroNome;
+    EditText editSobreNome;
+    EditText editNomeCurso;
+    EditText editTelefoneContato;
+
+    Button btnLimpar;
+    Button btnSalvar;
+    Button btnFinalizar;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,6 +74,15 @@ import devandroid.moacir.applistacurso2024.model.Pessoa;
         dadosOutraPessoa += outraPessoa.getCursoDesejado();
         dadosOutraPessoa += " Contato: ";
         dadosOutraPessoa += outraPessoa.getContato();
+
+        editPrimeiroNome = findViewById(R.id.editPrimeiroNome);
+        editSobreNome = findViewById(R.id.editSobreNome);
+        editNomeCurso = findViewById(R.id.editNomeCurso);
+        editTelefoneContato = findViewById(R.id.editTelefoneContato);
+
+        btnLimpar = findViewById(R.id.btnLimpar);
+        btnSalvar = findViewById(R.id.btnSalvar);
+        btnFinalizar = findViewById(R.id.btnFinalizar);
 
 
         Log.i("POOAndroid", pessoa.toString());
