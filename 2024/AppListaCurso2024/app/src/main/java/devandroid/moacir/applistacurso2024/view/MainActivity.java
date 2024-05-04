@@ -15,7 +15,8 @@ import devandroid.moacir.applistacurso2024.model.Pessoa;
 
      Pessoa pessoa;  //declarei objeto
      Pessoa outraPessoa;
-
+    String dadosPessoa;
+    String dadosOutraPessoa;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,8 +42,28 @@ import devandroid.moacir.applistacurso2024.model.Pessoa;
         outraPessoa.setCursoDesejado("java");
         outraPessoa.setContato("85-99999999");
 
+        dadosPessoa = "Primeiro nome: ";
+        dadosPessoa += pessoa.getPrimeiroNome();
+        dadosPessoa += " Sobrenome: ";
+        dadosPessoa += pessoa.getSobreNome();
+        dadosPessoa += " Curso Desejado: ";
+        dadosPessoa += pessoa.getCursoDesejado();
+        dadosPessoa += " Contato: ";
+        dadosPessoa += pessoa.getContato();
+
+        dadosOutraPessoa = "Primeiro nome: ";
+        dadosOutraPessoa += outraPessoa.getPrimeiroNome();
+        dadosOutraPessoa += " Sobrenome: ";
+        dadosOutraPessoa += outraPessoa.getSobreNome();
+        dadosOutraPessoa += " Curso Desejado: ";
+        dadosOutraPessoa += outraPessoa.getCursoDesejado();
+        dadosOutraPessoa += " Contato: ";
+        dadosOutraPessoa += outraPessoa.getContato();
+
+
 
         int parada = 0;
+
 
     }
 }
