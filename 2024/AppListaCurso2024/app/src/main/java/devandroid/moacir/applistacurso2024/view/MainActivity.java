@@ -1,4 +1,4 @@
- package devandroid.moacir.applistacurso2024.view;
+package devandroid.moacir.applistacurso2024.view;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -14,16 +14,17 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import devandroid.moacir.applistacurso2024.R;
+import devandroid.moacir.applistacurso2024.controller.PessoaController;
 import devandroid.moacir.applistacurso2024.model.Pessoa;
 
- public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
-     //declarar objeto - instanciar
-     Pessoa pessoa;
-     Pessoa outraPessoa;
+    //declarar objeto - instanciar
+    PessoaController controller;
+    Pessoa pessoa;
+    Pessoa outraPessoa;
     String dadosPessoa;
     String dadosOutraPessoa;
-
     EditText editPrimeiroNome;
     EditText editSobreNome;
     EditText editNomeCurso;
@@ -32,7 +33,6 @@ import devandroid.moacir.applistacurso2024.model.Pessoa;
     Button btnLimpar;
     Button btnSalvar;
     Button btnFinalizar;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,15 +43,11 @@ import devandroid.moacir.applistacurso2024.model.Pessoa;
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
-
         });
         // instanciar objeto
         pessoa = new Pessoa();
-        // Atribuir conteudo para obj conforme template (model)
-//        pessoa.setPrimeiroNome("Moacir");
-//        pessoa.setSobreNome("Barreto");
-//        pessoa.setCursoDesejado("Android");
-//        pessoa.setContato("84-9-999999999");
+        controller = new PessoaController();
+        controller.toString();
 
         outraPessoa = new Pessoa();
         outraPessoa.setPrimeiroNome("Luiz");
@@ -86,7 +82,6 @@ import devandroid.moacir.applistacurso2024.model.Pessoa;
         btnSalvar = findViewById(R.id.btnSalvar);
         btnFinalizar = findViewById(R.id.btnFinalizar);
 
-
         editPrimeiroNome.setText(outraPessoa.getPrimeiroNome());
         editSobreNome.setText(outraPessoa.getSobreNome());
         editNomeCurso.setText(outraPessoa.getCursoDesejado());
@@ -99,7 +94,6 @@ import devandroid.moacir.applistacurso2024.model.Pessoa;
                 editSobreNome.setText("");
                 editNomeCurso.setText("");
                 editTelefoneContato.setText("");
-
             }
         });
 
@@ -110,8 +104,6 @@ import devandroid.moacir.applistacurso2024.model.Pessoa;
                 finish();
             }
         });
-
-
         btnSalvar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -119,15 +111,13 @@ import devandroid.moacir.applistacurso2024.model.Pessoa;
                 pessoa.setSobreNome(editSobreNome.getText().toString());
                 pessoa.setCursoDesejado(editNomeCurso.getText().toString());
                 pessoa.setContato(editTelefoneContato.getText().toString());
-
-                Toast.makeText(MainActivity.this, "Salvo"+pessoa.toString(), Toast.LENGTH_LONG).show();
-                finish();
+                Toast.makeText(MainActivity.this, "Salvo" + pessoa.toString(), Toast.LENGTH_LONG).show();
+                controller.salvar(pessoa);
             }
         });
 
-
         Log.i("POOAndroid", pessoa.toString());
-        Log.i("POOAndroid",outraPessoa.toString());
+        Log.i("POOAndroid", outraPessoa.toString());
 
     }
 }
