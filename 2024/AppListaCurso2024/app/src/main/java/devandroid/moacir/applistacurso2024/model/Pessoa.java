@@ -1,20 +1,18 @@
 package devandroid.moacir.applistacurso2024.model;
 
-// construtor da classe   / template
-
-
 public class Pessoa {
-    // Atributos - obj Template
+
     private String primeiroNome;
     private String sobreNome;
     private String cursoDesejado;
-    private String contato;
+    private String telefoneContato;
+
+    public Pessoa(){}
 
     public String getPrimeiroNome() {
         return primeiroNome;
     }
 
-    // Métodos de Acesso Gets and Sets
     public void setPrimeiroNome(String primeiroNome) {
         this.primeiroNome = primeiroNome;
     }
@@ -35,16 +33,21 @@ public class Pessoa {
         this.cursoDesejado = cursoDesejado;
     }
 
-    public String getContato() {
-        return contato;
+    public String getTelefoneContato() {
+        return telefoneContato;
     }
 
-    public void setContato(String contato) {
-        this.contato = contato;
+    public void setTelefoneContato(String telefoneContato) {
+        this.telefoneContato = telefoneContato;
     }
 
-    public Pessoa(){
-
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "primeiroNome='" + primeiroNome + '\'' +
+                ", sobreNome='" + sobreNome + '\'' +
+                ", cursoDesejado='" + cursoDesejado + '\'' +
+                ", telefoneContato='" + telefoneContato + '\'' +
+                '}';
     }
-
 }
