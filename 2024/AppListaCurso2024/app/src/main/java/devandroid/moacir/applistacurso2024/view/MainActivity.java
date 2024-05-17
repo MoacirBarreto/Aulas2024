@@ -34,12 +34,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        pessoa = new Pessoa();
+
 
         // Atribuir conteúdo, dados, valores para o Objeto
         // Conforme o seu MODELO, TEMPLATE
-        pessoa.setPrimeiroNome("Marco");
-        pessoa.setSobreNome("Maddo");
+        pessoa = new Pessoa();
+        pessoa.setPrimeiroNome("Moacir");
+        pessoa.setSobreNome("Barreto");
         pessoa.setCursoDesejado("Android");
         pessoa.setTelefoneContato("11-99229191");
         outraPessoa = new Pessoa();
@@ -57,11 +58,15 @@ public class MainActivity extends AppCompatActivity {
         btnSalvar = findViewById(R.id.btnSalvar);
         btnFinalizar = findViewById(R.id.btnFinalizar);
 
+        editPrimeiroNome.setText(pessoa.getPrimeiroNome());
+        editSobreNomeAluno.setText(pessoa.getSobreNome());
+        editNomeCurso.setText(pessoa.getCursoDesejado());
+        editTelefoneContato.setText(pessoa.getTelefoneContato());
 
-        editPrimeiroNome.setText(outraPessoa.getPrimeiroNome());
-        editSobreNomeAluno.setText(outraPessoa.getSobreNome());
-        editNomeCurso.setText(outraPessoa.getCursoDesejado());
-        editTelefoneContato.setText(outraPessoa.getTelefoneContato());
+//        editPrimeiroNome.setText(outraPessoa.getPrimeiroNome());
+//        editSobreNomeAluno.setText(outraPessoa.getSobreNome());
+//        editNomeCurso.setText(outraPessoa.getCursoDesejado());
+//        editTelefoneContato.setText(outraPessoa.getTelefoneContato());
 
 
         btnLimpar.setOnClickListener(new View.OnClickListener() {
