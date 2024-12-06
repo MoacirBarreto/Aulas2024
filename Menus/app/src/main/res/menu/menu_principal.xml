@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemSalvar"
+        android:icon="@drawable/ic_salva_branco_24dp"
+        android:orderInCategory="100"
+        android:title="@string/menu_name_salvar" />
+    <item
+        android:id="@+id/itemEditar"
+        android:title="@string/menu_name_editar"
+        android:orderInCategory="200"
+        />
+    <item
+        android:id="@+id/itemConfiguracoes"
+        android:title="@string/menu_name_config"
+        android:orderInCategory="300"
+        />
+</menu>

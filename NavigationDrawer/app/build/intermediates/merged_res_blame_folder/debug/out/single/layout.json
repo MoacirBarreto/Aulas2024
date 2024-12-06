@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.navigationdrawer.app-mergeDebugResources-45:/layout/fragment_servicos.xml",
+        "source": "com.example.navigationdrawer.app-main-48:/layout/fragment_servicos.xml"
+    },
+    {
+        "merged": "com.example.navigationdrawer.app-mergeDebugResources-45:/layout/app_bar_main.xml",
+        "source": "com.example.navigationdrawer.app-main-48:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "com.example.navigationdrawer.app-mergeDebugResources-45:/layout/fragment_sobre.xml",
+        "source": "com.example.navigationdrawer.app-main-48:/layout/fragment_sobre.xml"
+    },
+    {
+        "merged": "com.example.navigationdrawer.app-mergeDebugResources-45:/layout/activity_main.xml",
+        "source": "com.example.navigationdrawer.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.navigationdrawer.app-mergeDebugResources-45:/layout/nav_header_main.xml",
+        "source": "com.example.navigationdrawer.app-main-48:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "com.example.navigationdrawer.app-mergeDebugResources-45:/layout/fragment_contato.xml",
+        "source": "com.example.navigationdrawer.app-main-48:/layout/fragment_contato.xml"
+    },
+    {
+        "merged": "com.example.navigationdrawer.app-mergeDebugResources-45:/layout/content_main.xml",
+        "source": "com.example.navigationdrawer.app-main-48:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.example.navigationdrawer.app-mergeDebugResources-45:/layout/fragment_cliente.xml",
+        "source": "com.example.navigationdrawer.app-main-48:/layout/fragment_cliente.xml"
+    },
+    {
+        "merged": "com.example.navigationdrawer.app-mergeDebugResources-45:/layout/fragment_principal.xml",
+        "source": "com.example.navigationdrawer.app-main-48:/layout/fragment_principal.xml"
+    }
+]

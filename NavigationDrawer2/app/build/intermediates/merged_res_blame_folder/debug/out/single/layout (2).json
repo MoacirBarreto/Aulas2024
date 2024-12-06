@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\moaci\\.gradle\\daemon\\7.6\\com.example.navigationdrawer.app-mergeDebugResources-45:\\layout\\fragment_clientes.xml",
+        "source": "C:\\Users\\moaci\\.gradle\\daemon\\7.6\\com.example.navigationdrawer.app-main-48:\\layout\\fragment_clientes.xml"
+    },
+    {
+        "merged": "C:\\Users\\moaci\\.gradle\\daemon\\7.6\\com.example.navigationdrawer.app-mergeDebugResources-45:\\layout\\fragment_servicos.xml",
+        "source": "C:\\Users\\moaci\\.gradle\\daemon\\7.6\\com.example.navigationdrawer.app-main-48:\\layout\\fragment_servicos.xml"
+    },
+    {
+        "merged": "C:\\Users\\moaci\\.gradle\\daemon\\7.6\\com.example.navigationdrawer.app-mergeDebugResources-45:\\layout\\fragment_principal2.xml",
+        "source": "C:\\Users\\moaci\\.gradle\\daemon\\7.6\\com.example.navigationdrawer.app-main-48:\\layout\\fragment_principal2.xml"
+    },
+    {
+        "merged": "C:\\Users\\moaci\\.gradle\\daemon\\7.6\\com.example.navigationdrawer.app-mergeDebugResources-45:\\layout\\fragment_contato.xml",
+        "source": "C:\\Users\\moaci\\.gradle\\daemon\\7.6\\com.example.navigationdrawer.app-main-48:\\layout\\fragment_contato.xml"
+    },
+    {
+        "merged": "C:\\Users\\moaci\\.gradle\\daemon\\7.6\\com.example.navigationdrawer.app-mergeDebugResources-45:\\layout\\fragment_sobre.xml",
+        "source": "C:\\Users\\moaci\\.gradle\\daemon\\7.6\\com.example.navigationdrawer.app-main-48:\\layout\\fragment_sobre.xml"
+    },
+    {
+        "merged": "C:\\Users\\moaci\\.gradle\\daemon\\7.6\\com.example.navigationdrawer.app-mergeDebugResources-45:\\layout\\fragment_principal.xml",
+        "source": "C:\\Users\\moaci\\.gradle\\daemon\\7.6\\com.example.navigationdrawer.app-main-48:\\layout\\fragment_principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\moaci\\.gradle\\daemon\\7.6\\com.example.navigationdrawer.app-mergeDebugResources-45:\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\moaci\\.gradle\\daemon\\7.6\\com.example.navigationdrawer.app-main-48:\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\moaci\\.gradle\\daemon\\7.6\\com.example.navigationdrawer.app-mergeDebugResources-45:\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\moaci\\.gradle\\daemon\\7.6\\com.example.navigationdrawer.app-main-48:\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "com.example.navigationdrawer.app-mergeDebugResources-45:/layout/fragment_sobre.xml",
+        "source": "com.example.navigationdrawer.app-main-48:/layout/fragment_sobre.xml"
+    },
+    {
+        "merged": "C:\\Users\\moaci\\.gradle\\daemon\\7.6\\com.example.navigationdrawer.app-mergeDebugResources-45:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\moaci\\.gradle\\daemon\\7.6\\com.example.navigationdrawer.app-main-48:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\moaci\\.gradle\\daemon\\7.6\\com.example.navigationdrawer.app-mergeDebugResources-45:\\layout\\content_main.xml",
+        "source": "C:\\Users\\moaci\\.gradle\\daemon\\7.6\\com.example.navigationdrawer.app-main-48:\\layout\\content_main.xml"
+    }
+]

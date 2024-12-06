@@ -1,0 +1,190 @@
+[
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/drawable_direitos.png.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/drawable/direitos.png"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/drawable_dois.jpg.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/drawable/dois.jpg"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/drawable_cinco.png.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/drawable/cinco.png"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/drawable_ovelha.png.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/drawable/ovelha.png"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/raw_cow.mp3.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/raw/cow.mp3"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/layout_fragment_bichos.xml.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/layout/fragment_bichos.xml"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/drawable_tres.png.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/drawable/tres.png"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/layout_activity_main.xml.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/raw_cat.mp3.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/raw/cat.mp3"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/drawable_quatro.png.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/drawable/quatro.png"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/raw_dog.mp3.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/raw/dog.mp3"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/drawable_leao.png.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/drawable/leao.png"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/drawable_macaco.png.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/drawable/macaco.png"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/raw_six.mp3.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/raw/six.mp3"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/raw_lion.mp3.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/raw/lion.mp3"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/layout_fragment_numeros.xml.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/layout/fragment_numeros.xml"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/raw_one.mp3.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/raw/one.mp3"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/xml_backup_rules.xml.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/raw_five.mp3.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/raw/five.mp3"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/raw_three.mp3.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/raw/three.mp3"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/raw_monkey.mp3.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/raw/monkey.mp3"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/layout_fragment_vogais.xml.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/layout/fragment_vogais.xml"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/raw_four.mp3.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/raw/four.mp3"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/drawable_cao.png.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/drawable/cao.png"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/drawable_gato.png.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/drawable/gato.png"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/drawable_um.jpg.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/drawable/um.jpg"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/drawable_vaca.png.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/drawable/vaca.png"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/drawable_seis.jpg.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/drawable/seis.jpg"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/drawable_segundo_fundo.jpg.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/drawable/segundo_fundo.jpg"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/raw_two.mp3.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/raw/two.mp3"
+    },
+    {
+        "merged": "com.example.aprendaingles2.app-merged_res-30:/raw_sheep.mp3.flat",
+        "source": "com.example.aprendaingles2.app-main-32:/raw/sheep.mp3"
+    }
+]

@@ -1,0 +1,27 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id viewPagerTab
+id viewpager
+layout activity_main
+layout fragment_blank
+layout fragment_em_alta
+layout fragment_home
+layout fragment_inscricoes
+mipmap ic_launcher
+string app_name
+string hello_blank_fragment
+style Theme.Abas
+xml backup_rules
+xml data_extraction_rules

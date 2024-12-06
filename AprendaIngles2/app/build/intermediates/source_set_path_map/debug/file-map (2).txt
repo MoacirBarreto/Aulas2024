@@ -1,0 +1,33 @@
+com.example.aprendaingles2.app-lifecycle-viewmodel-2.5.1-0 C:\Users\moaci\.gradle\caches\transforms-3\0df9d9286dfbe9818bff6fd51934ff5a\transformed\lifecycle-viewmodel-2.5.1\res
+com.example.aprendaingles2.app-coordinatorlayout-1.1.0-1 C:\Users\moaci\.gradle\caches\transforms-3\0f8bb79afb7c2dd51d558e0e37952fcc\transformed\coordinatorlayout-1.1.0\res
+com.example.aprendaingles2.app-appcompat-resources-1.6.1-2 C:\Users\moaci\.gradle\caches\transforms-3\24e5a3a037e9e4440c1dcfdd61fd59d2\transformed\appcompat-resources-1.6.1\res
+com.example.aprendaingles2.app-constraintlayout-2.1.4-3 C:\Users\moaci\.gradle\caches\transforms-3\3b7e5775ef23849137f9b6d045770c83\transformed\constraintlayout-2.1.4\res
+com.example.aprendaingles2.app-library-2.0.0-4 C:\Users\moaci\.gradle\caches\transforms-3\3bdd48c3c35567e39c5d0e9f593aa383\transformed\library-2.0.0\res
+com.example.aprendaingles2.app-lifecycle-viewmodel-savedstate-2.5.1-5 C:\Users\moaci\.gradle\caches\transforms-3\3e4a8e9d7e7663d5ee75c4bdd3aeb346\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
+com.example.aprendaingles2.app-emoji2-1.2.0-6 C:\Users\moaci\.gradle\caches\transforms-3\432650b0cb1619456058b0d987e1bfcd\transformed\emoji2-1.2.0\res
+com.example.aprendaingles2.app-cardview-1.0.0-7 C:\Users\moaci\.gradle\caches\transforms-3\45aa6e18c0335935fe140be5ce5a519d\transformed\cardview-1.0.0\res
+com.example.aprendaingles2.app-appcompat-1.6.1-8 C:\Users\moaci\.gradle\caches\transforms-3\4a2a6370a9cfe2965a968962851f9a57\transformed\appcompat-1.6.1\res
+com.example.aprendaingles2.app-startup-runtime-1.1.1-9 C:\Users\moaci\.gradle\caches\transforms-3\5ab7373b215c4ffa8ed3c368221707a9\transformed\startup-runtime-1.1.1\res
+com.example.aprendaingles2.app-lifecycle-livedata-core-2.5.1-10 C:\Users\moaci\.gradle\caches\transforms-3\632971ff199f05f9aab5692aba0e6a8b\transformed\lifecycle-livedata-core-2.5.1\res
+com.example.aprendaingles2.app-recyclerview-1.1.0-11 C:\Users\moaci\.gradle\caches\transforms-3\64c0203dfe8bbf642b07f8faff289706\transformed\recyclerview-1.1.0\res
+com.example.aprendaingles2.app-viewpager2-1.0.0-12 C:\Users\moaci\.gradle\caches\transforms-3\65b6ae86929d492137bcbe0b6feb6af8\transformed\viewpager2-1.0.0\res
+com.example.aprendaingles2.app-annotation-experimental-1.3.0-13 C:\Users\moaci\.gradle\caches\transforms-3\b08fe521088bf87ab24e50aa754a7d8a\transformed\annotation-experimental-1.3.0\res
+com.example.aprendaingles2.app-transition-1.2.0-14 C:\Users\moaci\.gradle\caches\transforms-3\b548718d8843ab7b925221f182e99f31\transformed\transition-1.2.0\res
+com.example.aprendaingles2.app-emoji2-views-helper-1.2.0-15 C:\Users\moaci\.gradle\caches\transforms-3\b91dcd5c6d5adb3147d9ffe82ec6a4e3\transformed\emoji2-views-helper-1.2.0\res
+com.example.aprendaingles2.app-material-1.8.0-16 C:\Users\moaci\.gradle\caches\transforms-3\db46fad1809501e1919d65a610b0067a\transformed\material-1.8.0\res
+com.example.aprendaingles2.app-drawerlayout-1.1.1-17 C:\Users\moaci\.gradle\caches\transforms-3\e0c379fdaef7af73bd20f5a63226e636\transformed\drawerlayout-1.1.1\res
+com.example.aprendaingles2.app-lifecycle-runtime-2.5.1-18 C:\Users\moaci\.gradle\caches\transforms-3\e8d7acd3773e341c02a120e41aa914ed\transformed\lifecycle-runtime-2.5.1\res
+com.example.aprendaingles2.app-activity-1.6.0-19 C:\Users\moaci\.gradle\caches\transforms-3\ebad249b1c21aedce70202494f85e316\transformed\activity-1.6.0\res
+com.example.aprendaingles2.app-savedstate-1.2.0-20 C:\Users\moaci\.gradle\caches\transforms-3\f189f9d9217cb0127f234faffe2f48c8\transformed\savedstate-1.2.0\res
+com.example.aprendaingles2.app-lifecycle-process-2.4.1-21 C:\Users\moaci\.gradle\caches\transforms-3\f24010f9428091e24efcc2ffab04b91e\transformed\lifecycle-process-2.4.1\res
+com.example.aprendaingles2.app-core-1.9.0-22 C:\Users\moaci\.gradle\caches\transforms-3\f44a04c0b547a314dec3e8879ababa08\transformed\core-1.9.0\res
+com.example.aprendaingles2.app-core-ktx-1.9.0-23 C:\Users\moaci\.gradle\caches\transforms-3\fbe050131d36b0ed2a3e268702185e28\transformed\core-ktx-1.9.0\res
+com.example.aprendaingles2.app-fragment-1.3.6-24 C:\Users\moaci\.gradle\caches\transforms-3\fd4853c1d5c805b6cae507932a0756de\transformed\fragment-1.3.6\res
+com.example.aprendaingles2.app-pngs-25 C:\Users\moaci\AndroidStudioProjects - Copia\AprendaIngles2\app\build\generated\res\pngs\debug
+com.example.aprendaingles2.app-resValues-26 C:\Users\moaci\AndroidStudioProjects - Copia\AprendaIngles2\app\build\generated\res\resValues\debug
+com.example.aprendaingles2.app-rs-27 C:\Users\moaci\AndroidStudioProjects - Copia\AprendaIngles2\app\build\generated\res\rs\debug
+com.example.aprendaingles2.app-packageDebugResources-28 C:\Users\moaci\AndroidStudioProjects - Copia\AprendaIngles2\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.aprendaingles2.app-packageDebugResources-29 C:\Users\moaci\AndroidStudioProjects - Copia\AprendaIngles2\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.aprendaingles2.app-merged_res-30 C:\Users\moaci\AndroidStudioProjects - Copia\AprendaIngles2\app\build\intermediates\merged_res\debug
+com.example.aprendaingles2.app-debug-31 C:\Users\moaci\AndroidStudioProjects - Copia\AprendaIngles2\app\src\debug\res
+com.example.aprendaingles2.app-main-32 C:\Users\moaci\AndroidStudioProjects - Copia\AprendaIngles2\app\src\main\res

@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_700
+color teal_200
+color teal_700
+color white
+dimen fab_margin
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id FirstFragment
+id SecondFragment
+id action_FirstFragment_to_SecondFragment
+id action_SecondFragment_to_FirstFragment
+id fab
+id nav_graph
+id nav_host_fragment_content_main
+id toolbar
+layout activity_main
+layout content_main
+mipmap ic_launcher
+navigation nav_graph
+string app_name
+string first_fragment_label
+string second_fragment_label
+style Theme.MinhasAnotacoes2
+style Theme.MinhasAnotacoes2.AppBarOverlay
+style Theme.MinhasAnotacoes2.NoActionBar
+style Theme.MinhasAnotacoes2.PopupOverlay
+xml backup_rules
+xml data_extraction_rules

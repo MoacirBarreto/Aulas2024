@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Menus</string>
+    <string name="menu_name_salvar">Salvar</string>
+    <string name="menu_name_editar">Editar</string>
+    <string name="menu_name_config">Configurações</string>
+
+
+</resources>
