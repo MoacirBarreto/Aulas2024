@@ -1,4 +1,4 @@
-package devAndroid.Moacir.applistacurso;
+package devandroid.moacir.applistacurso;
 
 import org.junit.Test;
 

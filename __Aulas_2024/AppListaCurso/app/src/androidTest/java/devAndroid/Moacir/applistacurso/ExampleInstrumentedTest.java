@@ -1,4 +1,4 @@
-package devAndroid.Moacir.applistacurso;
+package devandroid.moacir.applistacurso;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("devAndroid.Moacir.applistacurso", appContext.getPackageName());
+        assertEquals("devandroid.moacir.applistacurso", appContext.getPackageName());
     }
 }
