@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="proguard-base-6.0.31">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/jars-9/ea56d6e6a57c5d7addedf752ddb6f465/proguard-base-6.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

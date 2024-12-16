@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="generated-gradle-jars">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/8.4/generated-gradle-jars/gradle-api-8.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/8.4/generated-gradle-jars/gradle-kotlin-dsl-extensions-8.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

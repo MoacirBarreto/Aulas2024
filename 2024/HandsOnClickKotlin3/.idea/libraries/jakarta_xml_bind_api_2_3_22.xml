@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jakarta.xml.bind-api-2.3.22">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/jars-9/775794911e3563723a816cf05a4fed4b/jakarta.xml.bind-api-2.3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

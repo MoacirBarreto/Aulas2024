@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jsr305-3.0.21">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/jars-9/cf6391508d9631dcb9eb297dc0dfe31c/jsr305-3.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

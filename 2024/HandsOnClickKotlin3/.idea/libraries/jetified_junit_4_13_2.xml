@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jetified-junit-4.13.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/transforms-3/f2f851f34104de50d326af91e09b2999/transformed/jetified-junit-4.13.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

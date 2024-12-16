@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jars">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/transforms-3/a4c1cf55fe64083a7013a00d88bcb4c0/transformed/appcompat-1.6.1/jars/lint.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/transforms-3/a4c1cf55fe64083a7013a00d88bcb4c0/transformed/appcompat-1.6.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

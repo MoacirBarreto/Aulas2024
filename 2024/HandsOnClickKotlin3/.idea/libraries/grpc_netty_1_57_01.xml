@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="grpc-netty-1.57.01">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/jars-9/c4c6b988c602e1660df23451658fd6d2/grpc-netty-1.57.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

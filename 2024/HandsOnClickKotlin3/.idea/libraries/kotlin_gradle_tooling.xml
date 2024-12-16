@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="kotlin-gradle-tooling">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/jars-9/b4d38b222408dfa4f800c0ee2ed25d4c/kotlin-gradle-tooling.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="grpc-context-1.57.01">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/jars-9/0c3184306a2ca7408e31882324817a02/grpc-context-1.57.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

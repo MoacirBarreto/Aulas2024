@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jetified-kotlin-stdlib-jdk7-1.6.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/transforms-3/f76aff4b457904c5053be1c4f32e2c8a/transformed/jetified-kotlin-stdlib-jdk7-1.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

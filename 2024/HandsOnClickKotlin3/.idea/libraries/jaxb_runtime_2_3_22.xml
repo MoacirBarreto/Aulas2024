@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jaxb-runtime-2.3.22">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/jars-9/b4d545cbfd6fd9d5866a2c2a97d72488/jaxb-runtime-2.3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

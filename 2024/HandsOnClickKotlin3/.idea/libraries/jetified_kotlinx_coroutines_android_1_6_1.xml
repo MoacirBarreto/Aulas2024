@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jetified-kotlinx-coroutines-android-1.6.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/transforms-3/5eeeff8c76d2e29e3de95912b6bc5682/transformed/jetified-kotlinx-coroutines-android-1.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

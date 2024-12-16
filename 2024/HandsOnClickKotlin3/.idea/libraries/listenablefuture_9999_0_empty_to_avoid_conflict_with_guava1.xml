@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="listenablefuture-9999.0-empty-to-avoid-conflict-with-guava1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/jars-9/e960342e2900a07e40eeb3ee57a0a962/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

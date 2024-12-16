@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="guava-32.0.1-jre">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/jars-9/8f2c12f0609830b4b7a9f52c11cb940a/guava-32.0.1-jre.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

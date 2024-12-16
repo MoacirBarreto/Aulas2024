@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="android-test-plugin-host-logcat-proto-31.3.21">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/jars-9/9e40d7479d19dfd1e5cf01731abf2c24/android-test-plugin-host-logcat-proto-31.3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

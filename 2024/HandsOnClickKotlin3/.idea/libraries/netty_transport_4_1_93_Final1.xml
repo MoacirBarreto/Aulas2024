@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="netty-transport-4.1.93.Final1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/jars-9/5f9eec874228392b985882faed2d7b5e/netty-transport-4.1.93.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

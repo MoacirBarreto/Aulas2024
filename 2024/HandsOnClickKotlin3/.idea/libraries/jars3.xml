@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jars3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/transforms-3/ab56979961fee5383cb72757ed640df8/transformed/jetified-activity-1.6.0/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/transforms-3/ab56979961fee5383cb72757ed640df8/transformed/jetified-activity-1.6.0/jars/lint.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

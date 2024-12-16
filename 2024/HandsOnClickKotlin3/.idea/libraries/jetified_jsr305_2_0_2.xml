@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jetified-jsr305-2.0.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/transforms-3/18155f8fc19cd521888da3074c0d76f5/transformed/jetified-jsr305-2.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tensorflow-lite-metadata-0.1.0-rc22">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/jars-9/122190c699f2d01027c3750f315c1253/tensorflow-lite-metadata-0.1.0-rc2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

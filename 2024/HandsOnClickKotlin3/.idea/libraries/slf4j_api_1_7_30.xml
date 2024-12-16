@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="slf4j-api-1.7.30">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.gradle/caches/jars-9/d9a4712c850d0978cdfd84d8d1ae20ea/slf4j-api-1.7.30.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
