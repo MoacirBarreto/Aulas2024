@@ -1,4 +1,4 @@
-package devandroid.moacir.applistacurso3;
+package devandroid.moacir.applistacurso3.view;
 
 import android.os.Bundle;
 
@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import devandroid.moacir.applistacurso3.R;
 
 public class MainActivity extends AppCompatActivity {
 
