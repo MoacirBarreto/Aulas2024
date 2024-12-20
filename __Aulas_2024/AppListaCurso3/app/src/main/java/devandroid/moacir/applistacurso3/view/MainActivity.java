@@ -2,6 +2,8 @@ package devandroid.moacir.applistacurso3.view;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Button;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,9 +16,18 @@ import devandroid.moacir.applistacurso3.model.Pessoa;
 
 public class MainActivity extends AppCompatActivity {
 
+    //decalaração de classes
     Pessoa pessoa;
     Pessoa outraPessoa;
+    EditText editPrimeiroNome;
+    EditText editSobreNomeAluno;
+    EditText editNomeCurso;
+    EditText editTelefoneContato;
+    Button btnLimpar;
+    Button btnSalvar;
+    Button btnFinalizar;
 
+    // strings
     String dadosPessoa;
     String dadosOutraPessoa;
 
@@ -51,7 +62,22 @@ public class MainActivity extends AppCompatActivity {
     outraPessoa.setCursoDesejado("Android");
     outraPessoa.setTelefoneContato("9999999");
 
-    dadosOutraPessoa = "Primeiro nome: ";
+    editPrimeiroNome = findViewById(R.id.editPrimeiroNome);
+    editSobreNomeAluno = findViewById(R.id.editSobreNomeAluno);
+    editNomeCurso = findViewById(R.id.editNomeCurso);
+    editTelefoneContato = findViewById(R.id.editTelefoneContato);
+
+    btnLimpar = findViewById(R.id.btnLimpar);
+    btnSalvar = findViewById(R.id.btnSalvar);
+    btnFinalizar = findViewById(R.id.btnFinalizar);
+
+    editPrimeiroNome.setText(pessoa.getPrimeiroNome());
+    editSobreNomeAluno.setText(pessoa.getSobreNome());
+    editNomeCurso.setText(pessoa.getCursoDesejado());
+    editTelefoneContato.setText(pessoa.getTelefoneContato());
+
+
+ /*   dadosOutraPessoa = "Primeiro nome: ";
     dadosOutraPessoa += outraPessoa.getPrimeiroNome();
     dadosOutraPessoa += " Sobrenome: ";
     dadosOutraPessoa += outraPessoa.getSobreNome();
@@ -62,6 +88,6 @@ public class MainActivity extends AppCompatActivity {
 
     Log.i("Pooandroid",pessoa.toString());
     Log.i("Pooandroid",outraPessoa.toString());
-
+*/
     }
 }
