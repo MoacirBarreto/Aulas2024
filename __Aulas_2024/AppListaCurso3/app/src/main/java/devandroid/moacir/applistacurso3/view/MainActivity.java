@@ -51,8 +51,6 @@ public class MainActivity extends AppCompatActivity {
     outraPessoa.setCursoDesejado("Android");
     outraPessoa.setTelefoneContato("9999999");
 
-
-
     dadosOutraPessoa = "Primeiro nome: ";
     dadosOutraPessoa += outraPessoa.getPrimeiroNome();
     dadosOutraPessoa += " Sobrenome: ";
