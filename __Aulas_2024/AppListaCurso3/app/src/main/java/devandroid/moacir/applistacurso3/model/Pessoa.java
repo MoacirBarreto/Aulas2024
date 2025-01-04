@@ -2,19 +2,23 @@ package devandroid.moacir.applistacurso3.model;
 
 public class Pessoa {
 
-    // construtor da classe
-    // atributos - objetos - molde - modelo - template
+    // Construtor
+    // Atributos - Objetos - Molde - Modelo - Template
+    // Métodos de Acesso - Getts and Setts
 
     private String primeiroNome;
     private String sobreNome;
     private String cursoDesejado;
     private String telefoneContato;
 
+    public Pessoa(){}
+
     public String getPrimeiroNome() {
         return primeiroNome;
     }
 
     public void setPrimeiroNome(String primeiroNome) {
+
         this.primeiroNome = primeiroNome;
     }
 
@@ -42,11 +46,8 @@ public class Pessoa {
         this.telefoneContato = telefoneContato;
     }
 
-    public Pessoa(){
 
-    }
-
-    // to String
+    // To String - Para Textos - Para Strings de Caracteres
 
 
     @Override

@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "AppListaCurso3"
-include(":app")
+rootProject.name = "AppListaCursoVip3"
+include(""":app""")

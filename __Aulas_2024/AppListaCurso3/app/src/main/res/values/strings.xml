@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AppListaCurso3</string>
+    <string name="app_name">AppListaCursoVip3</string>
     <string name="txt_titulo">Aplicativo Lista VIP Curso Android</string>
     <string name="txt_hint_edit_primeiro_nome">Primeiro Nome</string>
     <string name="txt_hint_sobrenome">Sobrenome</string>
