@@ -8,8 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import devandroid.maddo.applistacurso.R;
-import devandroid.maddo.applistacurso.model.Pessoa;
+import devandroid.moacir.applistacurso3.R;
+import devandroid.moacir.applistacurso3.model.Pessoa;
 
 public class MainActivity extends AppCompatActivity {
 
