@@ -1,8 +1,5 @@
-package devandroid.moacir.applistacurso3.model;
+package devandroid.moacir.applistacursovip6.model;
 
-/**
- *
- */
 public class Pessoa {
 
     // Construtor
