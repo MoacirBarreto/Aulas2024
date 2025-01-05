@@ -1,5 +1,6 @@
 package devandroid.moacir.applistacursovip6.view;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -14,6 +15,9 @@ import devandroid.moacir.applistacursovip6.controller.PessoaController;
 import devandroid.moacir.applistacursovip6.model.Pessoa;
 
 public class MainActivity extends AppCompatActivity {
+
+    SharedPreferences preferences;
+    public static final String NOME_PREFERENCES = "pref_listavip";
 
     PessoaController controller;
     Pessoa pessoa;
@@ -34,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        preferences = getSharedPreferences(NOME_PREFERENCES,0);
+        SharedPreferences.Editor listavip = preferences.edit();
+
 
         //criação do objeto
         controller = new PessoaController();
@@ -88,6 +96,12 @@ public class MainActivity extends AppCompatActivity {
                 pessoa.setTelefoneContato(editTelefoneContato.getText().toString());
 
                 Toast.makeText(MainActivity.this, "Salvo " + pessoa.toString(), Toast.LENGTH_LONG).show();
+
+                listavip.putString("PrimeiroNome", pessoa.getPrimeiroNome());
+                listavip.putString("SobreNome", pessoa.getSobreNome());
+                listavip.putString("NomeCurso", pessoa.getCursoDesejado());
+                listavip.putString("telefoneContato", pessoa.getTelefoneContato());
+                listavip.apply();
 
                 controller.salvar(pessoa);
 
