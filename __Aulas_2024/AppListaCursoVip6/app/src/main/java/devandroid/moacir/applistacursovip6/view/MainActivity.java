@@ -10,15 +10,16 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import devandroid.moacir.applistacursovip6.R;
+import devandroid.moacir.applistacursovip6.controller.PessoaController;
 import devandroid.moacir.applistacursovip6.model.Pessoa;
 
 public class MainActivity extends AppCompatActivity {
 
+    PessoaController controller;
     Pessoa pessoa;
     Pessoa outraPessoa;
 
-    String dadosPessoa; // pascalCase - camelCase
-    String dadosOutraPessoa;
+
 
     EditText editPrimeiroNome;
     EditText editSobreNomeAluno;
@@ -34,9 +35,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //criação do objeto
+        controller = new PessoaController();
         pessoa = new Pessoa();
-
         outraPessoa = new Pessoa();
+
+        controller.toString();
         outraPessoa.setPrimeiroNome("Luiz");
         outraPessoa.setSobreNome("Alves");
         outraPessoa.setCursoDesejado("Java");
@@ -84,6 +88,8 @@ public class MainActivity extends AppCompatActivity {
                 pessoa.setTelefoneContato(editTelefoneContato.getText().toString());
 
                 Toast.makeText(MainActivity.this, "Salvo " + pessoa.toString(), Toast.LENGTH_LONG).show();
+
+                controller.salvar(pessoa);
 
             }
         });
