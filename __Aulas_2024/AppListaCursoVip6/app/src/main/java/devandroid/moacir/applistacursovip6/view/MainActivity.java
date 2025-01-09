@@ -9,15 +9,20 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.List;
+
 import devandroid.moacir.applistacursovip6.R;
+import devandroid.moacir.applistacursovip6.controller.CursoController;
 import devandroid.moacir.applistacursovip6.controller.PessoaController;
+import devandroid.moacir.applistacursovip6.model.Curso;
 import devandroid.moacir.applistacursovip6.model.Pessoa;
 
 public class MainActivity extends AppCompatActivity {
 
     PessoaController controller;
+    CursoController cursoController;
     Pessoa pessoa;
-    Pessoa outraPessoa;
+    List<Curso> listaDeCursos;
 
     EditText editPrimeiroNome;
     EditText editSobreNomeAluno;
@@ -36,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
         //criação do objeto
         controller = new PessoaController(MainActivity.this);
         controller.toString();
+
+        cursoController = new CursoController();
+        listaDeCursos = cursoController.getListaDeCursos();
+
 
         pessoa = new Pessoa();
         controller.buscar(pessoa);
