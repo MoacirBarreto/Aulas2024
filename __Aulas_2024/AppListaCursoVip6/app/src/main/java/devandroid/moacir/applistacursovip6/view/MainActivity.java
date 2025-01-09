@@ -1,6 +1,5 @@
 package devandroid.moacir.applistacursovip6.view;
 
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -16,14 +15,9 @@ import devandroid.moacir.applistacursovip6.model.Pessoa;
 
 public class MainActivity extends AppCompatActivity {
 
-    SharedPreferences preferences;
-    public static final String NOME_PREFERENCES = "pref_listavip";
-
     PessoaController controller;
     Pessoa pessoa;
     Pessoa outraPessoa;
-
-
 
     EditText editPrimeiroNome;
     EditText editSobreNomeAluno;
@@ -39,22 +33,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        preferences = getSharedPreferences(NOME_PREFERENCES,0);
-        SharedPreferences.Editor listavip = preferences.edit();
-
-
-
         //criação do objeto
-        controller = new PessoaController();
+        controller = new PessoaController(MainActivity.this);
         controller.toString();
 
         pessoa = new Pessoa();
-
-        pessoa.setPrimeiroNome(preferences.getString("PrimeiroNome", "n/a"));
-        pessoa.setSobreNome(preferences.getString("SobreNome", "n/a"));
-        pessoa.setCursoDesejado(preferences.getString("NomeCurso", "n/a"));
-        pessoa.setTelefoneContato(preferences.getString("telefoneContato", "n/a"));
-
+        controller.buscar(pessoa);
 
         editPrimeiroNome = findViewById(R.id.editPrimeiroNome);
         editSobreNomeAluno = findViewById(R.id.editSobreNomeAluno);
@@ -77,6 +61,8 @@ public class MainActivity extends AppCompatActivity {
                 editSobreNomeAluno.setText("");
                 editTelefoneContato.setText("");
                 editNomeCurso.setText("");
+
+                controller.limpar();
             }
         });
 
@@ -98,12 +84,6 @@ public class MainActivity extends AppCompatActivity {
                 pessoa.setTelefoneContato(editTelefoneContato.getText().toString());
 
                 Toast.makeText(MainActivity.this, "Salvo " + pessoa.toString(), Toast.LENGTH_LONG).show();
-
-                listavip.putString("PrimeiroNome", pessoa.getPrimeiroNome());
-                listavip.putString("SobreNome", pessoa.getSobreNome());
-                listavip.putString("NomeCurso", pessoa.getCursoDesejado());
-                listavip.putString("telefoneContato", pessoa.getTelefoneContato());
-                listavip.apply();
 
                 controller.salvar(pessoa);
 
