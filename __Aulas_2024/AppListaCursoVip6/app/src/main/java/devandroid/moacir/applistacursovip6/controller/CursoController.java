@@ -8,7 +8,8 @@ import devandroid.moacir.applistacursovip6.model.Curso;
 public class CursoController {
 
     private List listaCursos;
-    public List getListaDeCursos(){
+
+    public List getListaDeCursos() {
         listaCursos = new ArrayList<Curso>();
         listaCursos.add(new Curso("Java"));
         listaCursos.add(new Curso("HTML"));
@@ -20,6 +21,17 @@ public class CursoController {
         listaCursos.add(new Curso("Dart"));
 
         return listaCursos;
+    }
 
+    public ArrayList<String> dadosParaSpinner() {
+
+        // instanciando
+        ArrayList<String> dados = new ArrayList<>();
+
+        for (int i = 0; i < getListaDeCursos().size(); i++) {
+            Curso objeto = (Curso) getListaDeCursos().get(i);
+            dados.add(objeto.getNomeDoCursoDesejado());
+        }
+        return dados;
     }
 }
