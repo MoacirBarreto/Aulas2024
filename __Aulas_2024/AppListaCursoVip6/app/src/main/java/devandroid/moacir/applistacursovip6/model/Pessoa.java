@@ -3,15 +3,19 @@ package devandroid.moacir.applistacursovip6.model;
 public class Pessoa {
 
     // Construtor
+
     // Atributos - Objetos - Molde - Modelo - Template
+
     // Métodos de Acesso - Getts and Setts
+
 
     private String primeiroNome;
     private String sobreNome;
     private String cursoDesejado;
     private String telefoneContato;
 
-    public Pessoa(){}
+    public Pessoa() {
+    }
 
     public String getPrimeiroNome() {
         return primeiroNome;
@@ -46,9 +50,7 @@ public class Pessoa {
         this.telefoneContato = telefoneContato;
     }
 
-
     // To String - Para Textos - Para Strings de Caracteres
-
 
     @Override
     public String toString() {
