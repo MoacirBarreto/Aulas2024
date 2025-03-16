@@ -7,7 +7,6 @@ public class Pessoa {
     // Construtor
     // Atributos - Objetos - Molde - Modelo - Template
     // Métodos de Acesso - Getts and Setts
-
     private String primeiroNome;
     private String sobreNome;
     private String cursoDesejado;
@@ -48,9 +47,7 @@ public class Pessoa {
         this.telefoneContato = telefoneContato;
     }
 
-
     // To String - Para Textos - Para Strings de Caracteres
-
 
     @Override
     public String toString() {
