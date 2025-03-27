@@ -11,26 +11,26 @@
 9-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:5:5-67
 11-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <permission
-13-->[androidx.core:core:1.9.0] C:\Users\moaci\.gradle\caches\transforms-3\c4781ed071f4df465d69e7b9ecfecdd8\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+13-->[androidx.core:core:1.9.0] C:\Users\moaci\AndroidStudioProjects\2025\appListaCursoVip2025\.gradle\caches\transforms-3\c4781ed071f4df465d69e7b9ecfecdd8\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 14        android:name="devandroid.moacir.applistacurso.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-14-->[androidx.core:core:1.9.0] C:\Users\moaci\.gradle\caches\transforms-3\c4781ed071f4df465d69e7b9ecfecdd8\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+14-->[androidx.core:core:1.9.0] C:\Users\moaci\AndroidStudioProjects\2025\appListaCursoVip2025\.gradle\caches\transforms-3\c4781ed071f4df465d69e7b9ecfecdd8\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 15        android:protectionLevel="signature" />
-15-->[androidx.core:core:1.9.0] C:\Users\moaci\.gradle\caches\transforms-3\c4781ed071f4df465d69e7b9ecfecdd8\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+15-->[androidx.core:core:1.9.0] C:\Users\moaci\AndroidStudioProjects\2025\appListaCursoVip2025\.gradle\caches\transforms-3\c4781ed071f4df465d69e7b9ecfecdd8\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 16
 17    <uses-permission android:name="devandroid.moacir.applistacurso.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-17-->[androidx.core:core:1.9.0] C:\Users\moaci\.gradle\caches\transforms-3\c4781ed071f4df465d69e7b9ecfecdd8\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-17-->[androidx.core:core:1.9.0] C:\Users\moaci\.gradle\caches\transforms-3\c4781ed071f4df465d69e7b9ecfecdd8\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+17-->[androidx.core:core:1.9.0] C:\Users\moaci\AndroidStudioProjects\2025\appListaCursoVip2025\.gradle\caches\transforms-3\c4781ed071f4df465d69e7b9ecfecdd8\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] C:\Users\moaci\AndroidStudioProjects\2025\appListaCursoVip2025\.gradle\caches\transforms-3\c4781ed071f4df465d69e7b9ecfecdd8\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:7:5-25:19
+19-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:7:5-28:19
 20        android:allowBackup="true"
 20-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:8:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.9.0] C:\Users\moaci\.gradle\caches\transforms-3\c4781ed071f4df465d69e7b9ecfecdd8\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+21-->[androidx.core:core:1.9.0] C:\Users\moaci\AndroidStudioProjects\2025\appListaCursoVip2025\.gradle\caches\transforms-3\c4781ed071f4df465d69e7b9ecfecdd8\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 22        android:dataExtractionRules="@xml/data_extraction_rules"
 22-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:9:9-65
 23        android:debuggable="true"
@@ -47,44 +47,50 @@
 30        android:theme="@style/Theme.AppListaCurso" >
 30-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:14:9-51
 31        <activity
-31-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:16:9-24:20
+31-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:16:9-18:40
 32            android:name="devandroid.moacir.applistacurso.view.MainActivity"
 32-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:17:13-46
-33            android:exported="true" >
-33-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:18:13-36
-34            <intent-filter>
-34-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:19:13-23:29
-35                <action android:name="android.intent.action.MAIN" />
-35-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:20:17-69
-35-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:20:25-66
-36
-37                <category android:name="android.intent.category.LAUNCHER" />
-37-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:22:17-77
-37-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:22:27-74
-38            </intent-filter>
-39        </activity>
-40
-41        <provider
-41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moaci\.gradle\caches\transforms-3\979df2d65355c07838f37ddd6cec9d56\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-42            android:name="androidx.startup.InitializationProvider"
-42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moaci\.gradle\caches\transforms-3\979df2d65355c07838f37ddd6cec9d56\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-43            android:authorities="devandroid.moacir.applistacurso.androidx-startup"
-43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moaci\.gradle\caches\transforms-3\979df2d65355c07838f37ddd6cec9d56\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-44            android:exported="false" >
-44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moaci\.gradle\caches\transforms-3\979df2d65355c07838f37ddd6cec9d56\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-45            <meta-data
-45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moaci\.gradle\caches\transforms-3\979df2d65355c07838f37ddd6cec9d56\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moaci\.gradle\caches\transforms-3\979df2d65355c07838f37ddd6cec9d56\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-47                android:value="androidx.startup" />
-47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moaci\.gradle\caches\transforms-3\979df2d65355c07838f37ddd6cec9d56\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+33            android:exported="false" />
+33-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:18:13-37
+34        <activity
+34-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:19:9-27:20
+35            android:name="devandroid.moacir.applistacurso.view.SplashActivity"
+35-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:20:13-48
+36            android:exported="true" >
+36-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:21:13-36
+37            <intent-filter>
+37-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:22:13-26:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:23:17-69
+38-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:23:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:25:17-77
+40-->C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\app\src\main\AndroidManifest.xml:25:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moaci\AndroidStudioProjects\2025\appListaCursoVip2025\.gradle\caches\transforms-3\979df2d65355c07838f37ddd6cec9d56\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moaci\AndroidStudioProjects\2025\appListaCursoVip2025\.gradle\caches\transforms-3\979df2d65355c07838f37ddd6cec9d56\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+46            android:authorities="devandroid.moacir.applistacurso.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moaci\AndroidStudioProjects\2025\appListaCursoVip2025\.gradle\caches\transforms-3\979df2d65355c07838f37ddd6cec9d56\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moaci\AndroidStudioProjects\2025\appListaCursoVip2025\.gradle\caches\transforms-3\979df2d65355c07838f37ddd6cec9d56\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 48            <meta-data
-48-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\moaci\.gradle\caches\transforms-3\0ed39ac97ff44e60652e6797b1fded6f\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-49-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\moaci\.gradle\caches\transforms-3\0ed39ac97ff44e60652e6797b1fded6f\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moaci\AndroidStudioProjects\2025\appListaCursoVip2025\.gradle\caches\transforms-3\979df2d65355c07838f37ddd6cec9d56\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moaci\AndroidStudioProjects\2025\appListaCursoVip2025\.gradle\caches\transforms-3\979df2d65355c07838f37ddd6cec9d56\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 50                android:value="androidx.startup" />
-50-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\moaci\.gradle\caches\transforms-3\0ed39ac97ff44e60652e6797b1fded6f\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-51        </provider>
-52    </application>
-53
-54</manifest>
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\moaci\AndroidStudioProjects\2025\appListaCursoVip2025\.gradle\caches\transforms-3\979df2d65355c07838f37ddd6cec9d56\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\moaci\AndroidStudioProjects\2025\appListaCursoVip2025\.gradle\caches\transforms-3\0ed39ac97ff44e60652e6797b1fded6f\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\moaci\AndroidStudioProjects\2025\appListaCursoVip2025\.gradle\caches\transforms-3\0ed39ac97ff44e60652e6797b1fded6f\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\moaci\AndroidStudioProjects\2025\appListaCursoVip2025\.gradle\caches\transforms-3\0ed39ac97ff44e60652e6797b1fded6f\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+54        </provider>
+55    </application>
+56
+57</manifest>

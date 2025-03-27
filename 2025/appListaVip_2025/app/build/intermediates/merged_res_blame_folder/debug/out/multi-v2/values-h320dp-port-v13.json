@@ -4,7 +4,7 @@
             "outputFile": "devandroid.moacir.applistacurso.app-mergeDebugResources-27:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\moaci\\.gradle\\caches\\transforms-3\\d5bda4c07c7b4246780970a66ae82e89\\transformed\\material-1.8.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "C:\\Users\\moaci\\AndroidStudioProjects\\2025\\appListaCursoVip2025\\.gradle\\caches\\transforms-3\\d5bda4c07c7b4246780970a66ae82e89\\transformed\\material-1.8.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

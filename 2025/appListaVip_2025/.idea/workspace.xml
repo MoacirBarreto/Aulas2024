@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="074d672f-7fe7-4d86-aa1d-17897f111c8a" name="Changes" comment="" />
+    <list default="true" id="f65f44c6-29fa-4839-88f7-a8bb0a78c924" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +21,18 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -29,44 +41,48 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="MoacirBarreto &lt;moacirbarreto.ufrn@gmail.com&gt;" />
+      </list>
     </option>
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$/../.." value="master" />
-        <entry key="$PROJECT_DIR$/Moacir_Android2025" value="Optimizar_controladora" />
-      </map>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Moacir_Android2025" />
-    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2uC7Wrre93uWaAVtz9LSgNFG9ez" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectId" id="2uP9gmPliRrabTbFoiaQ4glos5c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;android-custom-viewC:/Users/moaci/AppData/Local/Android/Sdk/sources/android-28/android/view/View.java_SELECTED&quot;: &quot;View&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/moaci/AndroidStudioProjects/2025/appListaVip_2025&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/moaci/AndroidStudioProjects/2025/zip",
+    "project.structure.last.edited": "SDK Location",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.editor"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\moaci\AndroidStudioProjects\2025\appListaVip_2025\Moacir_Android2025\app\src\main\res\layout" />
+    </key>
+    <key name="android.template.366331634">
+      <recent name="devandroid.moacir.applistacurso.view" />
+      <recent name="devandroid.moacir.applistacurso" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="AppListaCurso.app.main" />
@@ -128,29 +144,88 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\moaci\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="074d672f-7fe7-4d86-aa1d-17897f111c8a" name="Changes" comment="" />
-      <created>1741740737192</created>
+      <changelist id="f65f44c6-29fa-4839-88f7-a8bb0a78c924" name="Changes" comment="" />
+      <created>1742139460627</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1741740737192</updated>
+      <updated>1742139460627</updated>
     </task>
-    <task id="LOCAL-00001" summary="Aula 56 -  MVC Controladora">
-      <created>1741743526383</created>
+    <task id="LOCAL-00001" summary="Commit apos Crash 16/03/25">
+      <created>1742150235476</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1741743526384</updated>
+      <updated>1742150235476</updated>
     </task>
-    <task id="LOCAL-00002" summary="Aula 56 -  MVC Controladora">
-      <created>1741744234441</created>
+    <task id="LOCAL-00002" summary="Commit 2  - 16/03/25">
+      <created>1742151111889</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1741744234441</updated>
+      <updated>1742151111889</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit 3  - 16/03/25">
+      <created>1742151280165</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742151280165</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Aula 63 - Refaturação do layout Spinner">
+      <created>1742258318128</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742258318128</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Aula 65 - Refaturação do Spinner - cursoController">
+      <created>1742262732243</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742262732244</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Aula 65 - Refaturação do Spinner - cursoController">
+      <created>1742414759686</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742414759687</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Aula 65 - Refaturação do Spinner - cursoController">
+      <created>1742416199251</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742416199251</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Aula 66 - Refaturação Layout para apresentar linearLayout">
+      <created>1742420349745</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742420349745</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Aula 67 - Tela Splash">
+      <created>1743115288892</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743115288892</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Aula 67 - Tela Splash">
+      <created>1743117597176</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743117597177</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,7 +239,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -175,30 +250,16 @@
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="HEAD" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/../.." />
-      <path value="$PROJECT_DIR$/appListaVip_2025" />
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
-    <MESSAGE value="Aula 55 -  MVC Controladora" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula 55 -  MVC Controladora" />
+    <MESSAGE value="Commit apos Crash 16/03/25" />
+    <MESSAGE value="Commit 2  - 16/03/25" />
+    <MESSAGE value="Commit 3  - 16/03/25" />
+    <MESSAGE value="Aula 63 - Refaturação do layout Spinner" />
+    <MESSAGE value="Aula 65 - Refaturação do Spinner - cursoController" />
+    <MESSAGE value="Aula 66 - Refaturação Layout para apresentar Spinner e demias campos" />
+    <MESSAGE value="Aula 66 - Refaturação Layout para apresentar linearLayout" />
+    <MESSAGE value="Aula 67 - Tela Splash" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula 67 - Tela Splash" />
   </component>
 </project>

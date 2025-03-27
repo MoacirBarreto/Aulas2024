@@ -18,11 +18,17 @@ id editNomeCurso
 id editPrimeiroNome
 id editSobreNomeAluno
 id editTelefoneContato
+id imageView
+id spinner
+id textSelecioneCurso
 id txtTituloApp
 layout activity_main
+layout activity_spinner
+layout activity_splash
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string selecione_um_curso
 string txt_button_finalizar
 string txt_button_limpar
 string txt_button_salvar
