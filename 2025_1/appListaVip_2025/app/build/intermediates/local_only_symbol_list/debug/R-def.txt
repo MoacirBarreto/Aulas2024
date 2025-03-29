@@ -1,0 +1,36 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color corBotoes
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color vermelho
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnFinalizar
+id btnLimpar
+id btnSalvar
+id editNomeCurso
+id editPrimeiroNome
+id editSobreNomeAluno
+id editTelefoneContato
+id txtTituloApp
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string txt_button_finalizar
+string txt_button_limpar
+string txt_button_salvar
+string txt_hint_edit_nome_do_curso
+string txt_hint_edit_primeiro_nome
+string txt_hint_edit_sobrenome
+string txt_hint_edit_telefone_contato
+string txt_titulo
+style Theme.AppListaCurso
+xml backup_rules
+xml data_extraction_rules
