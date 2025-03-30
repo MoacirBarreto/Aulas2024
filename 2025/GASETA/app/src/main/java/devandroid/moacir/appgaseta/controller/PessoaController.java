@@ -9,7 +9,6 @@ import devandroid.moacir.appgaseta.model.Pessoa;
 import devandroid.moacir.appgaseta.view.MainActivity;
 
 public class PessoaController {
-
     public static final String NOME_PREFERENCES = "pref_listavip";
     SharedPreferences preferences;
     SharedPreferences.Editor listaVip;
