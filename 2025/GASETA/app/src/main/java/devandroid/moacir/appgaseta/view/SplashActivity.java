@@ -10,14 +10,12 @@ import devandroid.moacir.appgaseta.R;
 import devandroid.moacir.appgaseta.database.GasEtaDB;
 
 public class SplashActivity extends AppCompatActivity {
-
     public static final int TIME_OUT_SPLASH = 3000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-
         cumutarTelaSplash();
     }
 
