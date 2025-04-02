@@ -121,6 +121,7 @@ public class GasEtaActivity extends AppCompatActivity {
                 editGasolina.setText("");
                 btnSalvar.setEnabled(false);
                 controller.limpar();
+
             }
         });
 
