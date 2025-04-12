@@ -1,17 +1,17 @@
 package devandroid.moacir.appgaseta.controller;
 
 public class Combustivel {
-
+    private int id;
     private String nomeDoCombustivel;
     private double precoDoCombustivel;
     private String recomendacao;
 
-    public String getRecomendacao() {
-        return recomendacao;
+    public int getId() {
+        return id;
     }
 
-    public void setRecomendacao(String recomendacao) {
-        this.recomendacao = recomendacao;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNomeDoCombustivel() {
@@ -28,5 +28,13 @@ public class Combustivel {
 
     public void setPrecoDoCombustivel(double precoDoCombustivel) {
         this.precoDoCombustivel = precoDoCombustivel;
+    }
+
+    public String getRecomendacao() {
+        return recomendacao;
+    }
+
+    public void setRecomendacao(String recomendacao) {
+        this.recomendacao = recomendacao;
     }
 }

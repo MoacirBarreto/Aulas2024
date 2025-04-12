@@ -3,6 +3,8 @@ package devandroid.moacir.appgaseta.controller;
 import android.content.ContentValues;
 import android.content.SharedPreferences;
 
+import java.util.List;
+
 import devandroid.moacir.appgaseta.database.GasEtaDB;
 import devandroid.moacir.appgaseta.view.GasEtaActivity;
 
@@ -31,13 +33,14 @@ public class CombustivelController extends GasEtaDB {
         dados.put("recomendacao", combustivel.getRecomendacao());
 
         salvarObjeto("combustivel", dados);
+    }
 
+    public List<Combustivel> getListaDeDados() {
+        return listarDados;
     }
 
     public void limpar() {
         dadosPreferences.clear();
         dadosPreferences.apply();
     }
-
-
 }
