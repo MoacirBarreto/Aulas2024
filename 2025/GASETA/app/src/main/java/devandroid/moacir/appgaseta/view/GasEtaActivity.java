@@ -45,6 +45,7 @@ public class GasEtaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_gaseta);
 
         controller = new CombustivelController(GasEtaActivity.this);
+        dados = controller.getListaDeDados();
 
         dados = controller.getListaDeDados();
 
@@ -114,9 +115,6 @@ public class GasEtaActivity extends AppCompatActivity {
 
                 controller.salvar(combustivelGasolina);
                 controller.salvar(combustivelEtanol);
-
-                int parada = 0;
-
             }
         });
 
@@ -127,7 +125,6 @@ public class GasEtaActivity extends AppCompatActivity {
                 editGasolina.setText("");
                 btnSalvar.setEnabled(false);
                 controller.limpar();
-
             }
         });
 

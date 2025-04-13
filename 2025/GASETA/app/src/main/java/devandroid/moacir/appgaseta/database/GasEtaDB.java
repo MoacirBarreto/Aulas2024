@@ -12,6 +12,7 @@ import java.util.List;
 import devandroid.moacir.appgaseta.controller.Combustivel;
 
 public class GasEtaDB extends SQLiteOpenHelper {
+
     private static final String DB_NAME = "gaseta.db";
     private static final int DB_VERSION = 1;
     Cursor cursor;
@@ -21,6 +22,7 @@ public class GasEtaDB extends SQLiteOpenHelper {
         super(context, DB_NAME, null, DB_VERSION);
         db = getWritableDatabase();
     }
+
     // métodos para implementar CRUD
     // Create Retreive Update Delete
 
@@ -45,17 +47,19 @@ public class GasEtaDB extends SQLiteOpenHelper {
         db.insert(tabela, null, dados);
     }
 
-    public List<Combustivel> listarDados;
+    public List<Combustivel> listarDados() {
 
-    {
         List<Combustivel> lista = new ArrayList<>();
 
         Combustivel registro;
+
+        String queryArg = "WHERE 1=1";
         String querySQL = "SELECT * FROM Combustivel";
+
+        int parada = 0;
 
         cursor = db.rawQuery(querySQL, null);
         if (cursor.moveToFirst()) {
-
             do {
                 registro = new Combustivel();
                 registro.setId(cursor.getInt(0));
@@ -70,6 +74,6 @@ public class GasEtaDB extends SQLiteOpenHelper {
         } else {
 
         }
+        return lista;
     }
-
 }

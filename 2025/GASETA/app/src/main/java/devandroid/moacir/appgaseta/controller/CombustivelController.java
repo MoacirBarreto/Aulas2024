@@ -23,10 +23,10 @@ public class CombustivelController extends GasEtaDB {
     public void salvar(Combustivel combustivel) {
         ContentValues dados = new ContentValues();
 
-        dadosPreferences.putString("combustivel", combustivel.getNomeDoCombustivel());
-        dadosPreferences.putFloat("precoDoCombustivel", (float) combustivel.getPrecoDoCombustivel());
-        dadosPreferences.putString("recomendacao", combustivel.getRecomendacao());
-        dadosPreferences.apply();
+        //   dadosPreferences.putString("combustivel", combustivel.getNomeDoCombustivel());
+        //   dadosPreferences.putFloat("precoDoCombustivel", (float) combustivel.getPrecoDoCombustivel());
+        //   dadosPreferences.putString("recomendacao", combustivel.getRecomendacao());
+        //   dadosPreferences.apply();
 
         dados.put("nomeDoCombustivel", combustivel.getNomeDoCombustivel());
         dados.put("precoDoCombustivel", combustivel.getPrecoDoCombustivel());
@@ -36,7 +36,7 @@ public class CombustivelController extends GasEtaDB {
     }
 
     public List<Combustivel> getListaDeDados() {
-        return listarDados;
+        return listarDados();
     }
 
     public void limpar() {
